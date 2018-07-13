@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">rxpermlib</string>
+
+    <string name="setting">設定</string>
+    <string name="perm_tip">
+        此應用缺少必要的權限。\n請點擊"設定"-"權限"-打開所需權限。\n最後點擊兩次退後按鈕，即可返回。
+    </string>
+    <string name="ask_again">請給予應用必要權限，讓程式可以正常工作。</string>
+    <string name="cancel">取消</string>
+    <string name="rationale">請給予應用必要權限，讓程式可以正常工作。</string>
+
+</resources>

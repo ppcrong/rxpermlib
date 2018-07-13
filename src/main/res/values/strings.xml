@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">rxpermlib</string>
+
+    <string name="setting">Settings</string>
+    <string name="perm_tip">
+        To work properly, this app requires additional permissions.\nYou can manage permissions in "Settings"-"Permissions"-Grant required permission.\nTap back key twice to return.
+    </string>
+    <string name="ask_again">To work properly, this app requires additional permissions. Please allow permissions when asked.</string>
+    <string name="cancel">Cancel</string>
+    <string name="rationale">Please grant permissions to let app work properly.</string>
+
+</resources>
