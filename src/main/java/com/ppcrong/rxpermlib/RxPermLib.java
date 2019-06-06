@@ -5,9 +5,9 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.provider.Settings;
-import android.support.v4.app.Fragment;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.socks.library.KLog;
 import com.tbruyelle.rxpermissions2.RxPermissions;
