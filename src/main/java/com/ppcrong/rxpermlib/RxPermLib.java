@@ -100,8 +100,6 @@ public class RxPermLib {
             ((Activity) object).startActivityForResult(intent, SETTINGS_REQ_CODE);
         } else if (object instanceof Fragment) {
             ((Fragment) object).startActivityForResult(intent, SETTINGS_REQ_CODE);
-        } else if (object instanceof android.app.Fragment) {
-            ((android.app.Fragment) object).startActivityForResult(intent, SETTINGS_REQ_CODE);
         }
     }
     // endregion [Private Function]
