@@ -1,8 +1,4 @@
 apply plugin: 'com.android.library'
-def extraLibraryFile = new File("${project.projectDir}/extraLibraries.gradle")
-if (extraLibraryFile.exists()) {
-    apply from: "${project.projectDir}/extraLibraries.gradle"
-}
 
 android {
     compileSdkVersion 29
@@ -44,8 +40,12 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    if (extraLibraryFile.exists()) {
-        extraLibrary.each { implementation it }
-    }
+
+    // KLog
+    implementation 'com.github.zhaokaiqiang.klog:library:1.6.0'
+    // rxjava
+    implementation "io.reactivex.rxjava2:rxjava:2.2.8"
+    // RxPermissions
+    implementation 'com.github.tbruyelle:rxpermissions:0.10.2'
 }
 
